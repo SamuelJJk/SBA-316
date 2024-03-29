@@ -1,0 +1,41 @@
+.tierBoard{
+    border: 3px solid green;
+    margin: 1em;
+    height: 410px;
+}
+.optionsList{
+    border: 1px solid black;
+    margin: 1em;
+    height: 20vh;
+    display: flex;
+    justify-content: space-around;
+}
+.tiers{
+    border:1px solid white;
+    background-color: black;
+    height: 57px;
+    display: flex;
+
+}
+.letters{
+    border:solid orange;
+    width: 10%;
+    color:white;
+    text-align: center;
+    font-size:30px;
+}
+.tierPicks{
+    border:solid orange;
+    width: 90%;
+    display: flex;
+}
+.options{
+    border: 2px solid palevioletred;
+    width: 110px;
+}
+.optionImg{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    cursor: pointer;
+}
