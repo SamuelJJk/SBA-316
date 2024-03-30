@@ -62,12 +62,24 @@ const changeName = () =>{
 }
 reNameBtn.addEventListener('click', changeName)
 
+const colors = document.getElementById('colors');
+const subBtn = document.getElementById('subBtn');
+
+const changeColor = () => {
+    const color = colors.value;
+        body.style.backgroundColor = color;
+    if (color === 'black'){
+       body.style.color = 'white'
+    }else{
+        body.style.color = 'white'
+    }
+}
+
+subBtn.addEventListener('click', changeColor);
 
 
 
 //THing still need to do 
-
-    //Modify the HTML or text content of at least one element in response to user interaction using innerHTML, innerText, or textContent.
 
     //Modify the style and/or CSS classes of an element in response to user interactions using the style or classList properties.
 
