@@ -13,6 +13,20 @@
     border: 1px solid pink;
     margin-left: 10px;
 }
+.about{
+    border:solid peachpuff;
+    display: flex;
+    align-items: center;
+    /* justify-content:space-around; */
+    height: 30px;
+}
+.info{
+    padding-right: 10px;
+    font-style: italic;
+}
+.infoBtn{
+
+}
 .tierBoard{
     border: 3px solid green;
     margin: 1em;

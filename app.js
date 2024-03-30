@@ -45,3 +45,32 @@ const pickTier = (element, imageUrl) => {
 MW3.addEventListener('click', () => pickTier(MW3, 'https://upload.wikimedia.org/wikipedia/en/b/bf/Call_of_Duty_Modern_Warfare_3_box_art.png'));
 spiderman.addEventListener('click', () => pickTier(spiderman, 'https://image.api.playstation.com/vulcan/ap/rnd/202008/1020/T45iRN1bhiWcJUzST6UFGBvO.png'));
 FF7.addEventListener('click', () => pickTier(FF7, 'https://m.media-amazon.com/images/I/81J-uEoQ6WL.jpg'));
+
+const infoBtn = document.querySelector('.infoBtn')
+
+const tierWiki = ()=>{
+    window.open("https://en.wikipedia.org/wiki/Tier_list", "Tier List wiki page", "popup");
+}
+
+infoBtn.addEventListener('click',tierWiki)
+
+
+
+
+//THing still need to do 
+
+    //Modify the HTML or text content of at least one element in response to user interaction using innerHTML, innerText, or textContent.
+
+    //Modify the style and/or CSS classes of an element in response to user interactions using the style or classList properties.
+
+    //Modify at least one attribute of an element in response to user interaction.
+
+    //Use at least two Browser Object Model (BOM) properties or methods.
+
+    //Include at least one form and/or input with HTML attribute validation.
+
+    //Include at least one form and/or input with DOM event-based validation. (This can be the same form or input as the one above, but should include event-based validation in addition to the HTML attribute validation.)
+
+    // Include a README file that contains a description of your application.
+
+    // Use the parent-child-sibling relationship to navigate between elements at least once (firstChild, lastChild, parentNode, nextElementSibling, etc.).
