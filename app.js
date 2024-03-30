@@ -54,6 +54,14 @@ const tierWiki = ()=>{
 
 infoBtn.addEventListener('click',tierWiki)
 
+const title = window.document.querySelector('.title')
+const reNameBtn = window.document.querySelector(".reName") 
+
+const changeName = () =>{
+    title.innerHTML = prompt('what the New title for this tier list')
+}
+reNameBtn.addEventListener('click', changeName)
+
 
 
 
